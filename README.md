@@ -1,16 +1,55 @@
-# React + Vite
+# To-Do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A bright, responsive React to-do list built with Vite, plain CSS, and JavaScript. The app keeps the workflow simple while adding a polished interface with a vibrant gradient background, a centered task card, animated task states, and clear task counters.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Add tasks with a fast inline form.
+- Mark tasks as complete with a dedicated Complete button.
+- Delete tasks with a smooth exit animation.
+- View total, completed, and pending task counters.
+- See completed items with a green checkmark, strikethrough, and reduced opacity.
+- Enjoy a fully responsive layout for mobile and desktop.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite
+- Plain CSS
+- JavaScript
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Project Structure
+
+- [src/App.jsx](src/App.jsx) contains the to-do logic and UI.
+- [src/App.css](src/App.css) contains the full visual design and responsive layout.
+- [src/main.jsx](src/main.jsx) mounts the React app.
+
+## Notes
+
+The project intentionally avoids external UI libraries so the interface stays lightweight and easy to customize.
